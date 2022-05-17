@@ -43,6 +43,8 @@
 		66BE94342833E73E0095FDE7 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BE94332833E73D0095FDE7 /* VideoModel.swift */; };
 		66BE94362833E7A50095FDE7 /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BE94352833E7A50095FDE7 /* VideoListItemView.swift */; };
 		66BE943A2833EC690095FDE7 /* VideoListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BE94392833EC690095FDE7 /* VideoListingView.swift */; };
+		66BE943C2833EFE70095FDE7 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BE943B2833EFE70095FDE7 /* VideoPlayerView.swift */; };
+		66BE943F2833F0F00095FDE7 /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BE943E2833F0F00095FDE7 /* VideoPlayerHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +86,8 @@
 		66BE94332833E73D0095FDE7 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
 		66BE94352833E7A50095FDE7 /* VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItemView.swift; sourceTree = "<group>"; };
 		66BE94392833EC690095FDE7 /* VideoListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListingView.swift; sourceTree = "<group>"; };
+		66BE943B2833EFE70095FDE7 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		66BE943E2833F0F00095FDE7 /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,7 @@
 		66BE93E32832B3F40095FDE7 /* Africa */ = {
 			isa = PBXGroup;
 			children = (
+				66BE943D2833F0DD0095FDE7 /* Utility */,
 				66BE94202832D45E0095FDE7 /* Extension */,
 				66BE941D2832D3120095FDE7 /* Model */,
 				66BE941A2832D0560095FDE7 /* View */,
@@ -191,6 +196,7 @@
 				66BE94312833E1000095FDE7 /* ExternalWeblinkView.swift */,
 				66BE94352833E7A50095FDE7 /* VideoListItemView.swift */,
 				66BE94392833EC690095FDE7 /* VideoListingView.swift */,
+				66BE943B2833EFE70095FDE7 /* VideoPlayerView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -211,6 +217,14 @@
 				66BE94212832D4700095FDE7 /* CodableBundleExtension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		66BE943D2833F0DD0095FDE7 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				66BE943E2833F0F00095FDE7 /* VideoPlayerHelper.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,6 +331,8 @@
 				66BE94362833E7A50095FDE7 /* VideoListItemView.swift in Sources */,
 				66BE94222832D4700095FDE7 /* CodableBundleExtension.swift in Sources */,
 				66BE942A2833D8510095FDE7 /* HeadingView.swift in Sources */,
+				66BE943F2833F0F00095FDE7 /* VideoPlayerHelper.swift in Sources */,
+				66BE943C2833EFE70095FDE7 /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
