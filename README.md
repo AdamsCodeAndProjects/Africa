@@ -4,6 +4,9 @@
 This beautiful SwiftUI App shows videos, images, and locations of animals in Africa.  
 
 <h1> Featuring </h1> 
+* Video Player <br>
+* Complete Launch Screen <br>
+* Swift Animations for a more complete user experience <br>
 * Parsing JSON files <br>
 * MapKit Integration <br>
 * Complete launch screen and app icons <br>
