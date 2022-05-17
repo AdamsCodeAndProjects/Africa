@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66A690202834354C0000A9C1 /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A6901F2834354C0000A9C1 /* AnimalGridItemView.swift */; };
 		66BE93E52832B3F40095FDE7 /* AfricaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BE93E42832B3F40095FDE7 /* AfricaApp.swift */; };
 		66BE93E72832B3F40095FDE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BE93E62832B3F40095FDE7 /* ContentView.swift */; };
 		66BE93E92832B3F90095FDE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66BE93E82832B3F90095FDE7 /* Assets.xcassets */; };
@@ -51,6 +52,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		66A6901F2834354C0000A9C1 /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
 		66BE93E12832B3F40095FDE7 /* Africa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66BE93E42832B3F40095FDE7 /* AfricaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaApp.swift; sourceTree = "<group>"; };
 		66BE93E62832B3F40095FDE7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -205,6 +207,7 @@
 				66BE943B2833EFE70095FDE7 /* VideoPlayerView.swift */,
 				66BE94422833FC790095FDE7 /* MapAnnotationView.swift */,
 				66BE94442834023D0095FDE7 /* MotionAnimationView.swift */,
+				66A6901F2834354C0000A9C1 /* AnimalGridItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				66BE94242832DA9F0095FDE7 /* AnimalListItemView.swift in Sources */,
 				66BE94412833F4D30095FDE7 /* LocationModel.swift in Sources */,
 				66BE94192832CCFA0095FDE7 /* MainView.swift in Sources */,
+				66A690202834354C0000A9C1 /* AnimalGridItemView.swift in Sources */,
 				66BE942E2833DBDE0095FDE7 /* InsetFactView.swift in Sources */,
 				66BE94432833FC790095FDE7 /* MapAnnotationView.swift in Sources */,
 				66BE941C2832D0710095FDE7 /* CoverImageView.swift in Sources */,
